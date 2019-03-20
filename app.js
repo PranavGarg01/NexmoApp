@@ -9,8 +9,8 @@ app.set('view engine','ejs');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 const nexmo = new Nexmo({
-    apiKey: '1c207bd7',
-    apiSecret : '7U2NYbpqDdWJVo5d'
+    apiKey: '',
+    apiSecret : ''
 })
 app.get('/',(req,res)=>{
   res.send("HELLO WORLD")
